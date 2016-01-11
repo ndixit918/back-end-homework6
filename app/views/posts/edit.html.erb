@@ -1,0 +1,7 @@
+<h1>EDIT</h1>
+
+<%= form_for @post do |f| %>
+	<%= f.text_area :content %>
+	<br><br>
+	<%= f.submit :create, size: "50x30" %>
+<% end %>
